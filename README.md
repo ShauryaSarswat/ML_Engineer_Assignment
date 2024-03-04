@@ -54,7 +54,7 @@ The throughput we recieved for single GPU was ~10/sec ie. when we will have conc
 
 1. Input tokens = 128
 2. Output tokens = 128
-3. Concurrency [ testest on the 2 X T4 board at kaggle, I do not have access to the 32 GPU runtime, the conncurent access would let us run multiple inferences on concurrent GPUs] 
+3. Concurrency [ tested on the 2 X T4 board at kaggle, I do not have access to the 32 GPU runtime, the conncurent access would let us run multiple inferences on concurrent GPUs] 
 4. GPU = 1 X Nvidia Tesla T4 (16GB VRAM) [ Google Collab ]
 5. Model dtype = any dtype of choice supported by said GPU
 
